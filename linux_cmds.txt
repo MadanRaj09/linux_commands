@@ -1,0 +1,39 @@
+                     *******************Imp commands which i have gone through in linux****************************
+
+
+  
+sudo adduser <username>       (to add new user, initially)
+
+sudo useradd <username> sudo  (to add user to sudo group)
+
+sudo deluser <username>       (to delete the existing user)
+
+sudo su -  or  sudo su root    (to switch to root user)
+
+usermod -aG sudo <username>   (anotherway to add user to sudo group, make sure u be in root)
+
+usermod -aG docker jenkins    (to add jenkins user to docker group, make sure u be in root)
+
+*********************************************************************************************************************
+
+ip addr
+
+ip -br -c addr
+
+lsof -i:<port num>            (list of running on port)  
+
+kill -9 <process id>           (kill the process or running port)
+
+lvs [for checking storage(when i need to expand my disk space)]
+
+df -h (to check available space in human readable)
+
+fdisk -l
+
+vgs
+
+lsblk (to check total disck space and how it is partitioned into sda1,sda2)
+
+nmtui (to show network interface graphically}
+
+*************************************************************************************************************************

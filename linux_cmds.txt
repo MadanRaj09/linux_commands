@@ -18,6 +18,12 @@ getent group sudo             (outputs the lists of all users in the sudo group)
 
 getent group docker            (outputs the lists of all users in the docker group)
 
+chmod 700 <file or folder name>  (to allow the file to read ,write,executable)
+
+chmod 400 <file or folder name>  (to allpw the file to only read mode)
+
+
+
 
 
 

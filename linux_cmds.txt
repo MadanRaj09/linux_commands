@@ -4,15 +4,18 @@
   
 sudo adduser <username>       (to add new user, initially)
 
-sudo useradd <username> sudo  (to add user to sudo group)
-
 sudo deluser <username>       (to delete the existing user)
 
 sudo su -  or  sudo su root    (to switch to root user)
 
-usermod -aG sudo <username>   (anotherway to add user to sudo group, make sure u be in root)
+usermod -aG sudo <username>   ( to add user to sudo group, make sure u be in root)
 
 usermod -aG docker jenkins    (to add jenkins user to docker group, make sure u be in root)
+
+getent group sudo             (outputs the lists of all users in the sudo group)  
+
+getent group docker            (outputs the lists of all users in the docker group)
+
 
 *********************************************************************************************************************
 

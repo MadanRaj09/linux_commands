@@ -37,3 +37,6 @@ lsblk (to check total disck space and how it is partitioned into sda1,sda2)
 nmtui (to show network interface graphically}
 
 *************************************************************************************************************************
+rm -rf <directory name>    (to remove a non empty directory)
+
+rmdir <directory name>     (to remove a empty directory)

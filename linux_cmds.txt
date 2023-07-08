@@ -31,6 +31,9 @@ lsof -i:<portnumber> (to check wheather the port is active)
 
 
 *********************************************************************************************************************
+nproc                  (to see number of cpu) 
+
+cat /proc/cpuinfo      (to see info of each cpu)
 
 ip addr
 

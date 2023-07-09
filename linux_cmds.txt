@@ -59,3 +59,5 @@ nmtui (to show network interface graphically}
 rm -rf <directory name>    (to remove a non empty directory)
 
 rmdir <directory name>     (to remove a empty directory)
+
+echo <string> | base64 -d    (converting base 64 string to normal)

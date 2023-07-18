@@ -22,13 +22,6 @@ chmod 700 <file or folder name>  (to allow the file to read ,write,executable)
 
 chmod 400 <file or folder name>  (to allpw the file to only read mode)
 
-********************************************************************************************************************
-lsof -i:<portnumber> (to check wheather the port is active)
-
-
-
-
-
 
 *********************************************************************************************************************
 nproc                  (to see number of cpu) 

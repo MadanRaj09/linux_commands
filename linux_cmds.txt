@@ -65,3 +65,5 @@ echo <string> | base64 -d    (converting base 64 string to normal)
 sudo apt remove <package name>    (to uninstall a package)
 
 ls && du -sh                  (it lists all files with its size)
+
+cat etc/os-release           (to know os version and its name)

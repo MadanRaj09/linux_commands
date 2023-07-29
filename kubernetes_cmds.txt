@@ -5,3 +5,4 @@ kubectl delete pod <pod name>
 kubectl delete deployment <deployment name>
 kubectl scale deploy <deployment name> --replicas=<any num>or 0
 kubectl decribe pod <pod name> 
+kubectl logs <pod name>
